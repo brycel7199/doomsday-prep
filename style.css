@@ -1,0 +1,73 @@
+h1{
+    text-align: center;
+}
+
+
+
+body {
+    background-color: rgba(20, 128, 16, 0.915);
+    font-family: tim;
+}
+#poster {
+  border: 1px solid #000000;
+  padding: 8px;
+  max-width: auto;
+  color: #000000;
+  text-align: center;
+  float: right;
+}
+
+
+table, th, td {
+  border: 1px solid black;}
+
+.timeline-table th, .timeline-table td {
+    text-align: center;
+}
+
+.timeline-table tr:has(input:checked) td {
+    text-decoration: line-through;
+}
+
+.timeline-table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+.timeline-table th:nth-child(1),
+.timeline-table td:nth-child(1) {
+  width: 60px;
+}
+
+.timeline-table th:nth-child(2),
+.timeline-table td:nth-child(2) {
+  width: 150px;
+}
+
+.timeline-table th:nth-child(3),
+.timeline-table td:nth-child(3) {
+  width: 120px;
+}
+
+.timeline-table th:nth-child(4),
+.timeline-table td:nth-child(4) {
+  width: 120px;
+}
+
+.timeline-table th:nth-child(5),
+.timeline-table td:nth-child(5) {
+  width: 100px;
+}
+
+.timeline-table th:nth-child(6),
+.timeline-table td:nth-child(6) {
+  width: 100px;
+}
+
+#timeline-title {
+  color: #000000;
+}
+
+#timeline-title:hover {
+    color: rgb(0, 0, 238)
+}
