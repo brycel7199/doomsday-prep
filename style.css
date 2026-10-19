@@ -1,73 +1,217 @@
+body {
+    background-color: rgba(27, 124, 23, 1);
+}
+
+body.home-page {
+    background-image: radial-gradient(
+      ellipse 25% 80% at center,
+      rgba(165, 167, 172, 0.843) 0%,
+      rgba(8, 95, 5, 0.998) 100%
+    );
+}
+
 h1{
     text-align: center;
+    font-size: 48px;
+}
+
+h3{
+  font-size: 32px;
+}
+
+h2{
+  font-size: 32px;
+}
+
+a:link,
+a:visited {
+    color: rgb(0, 0, 238);
+}
+
+#timeline-sources:link, #timeline-sources:visited {
+    color: rgb(0, 0, 238);
+    text-decoration: underline;
+}
+
+.timeline-sources-link:link,
+.timeline-sources-link:visited,
+.timeline-sources-link:hover,
+.timeline-sources-link:focus,
+.timeline-sources-link:active {
+    color: rgb(0, 0, 238);
+    text-decoration: underline;
+}
+
+a:hover,
+a:focus,
+a:active {
+    color: rgb(0, 0, 238);
 }
 
 
-
-body {
-    background-color: rgba(20, 128, 16, 0.915);
-    font-family: tim;
-}
 #poster {
   border: 1px solid #000000;
   padding: 8px;
-  max-width: auto;
+  max-width: 400px;
+  margin: 1em auto;
   color: #000000;
   text-align: center;
-  float: right;
+  font-size: 24px;
+}
+
+table{
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#link-for-timeline-sources {
+  text-decoration: none;
+  font-size: 28px;
+}
+
+#link-for-timeline-sources-container {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#main-earth-table {
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 
-table, th, td {
-  border: 1px solid black;}
+.timeline-container {
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+}
 
-.timeline-table th, .timeline-table td {
+table, th, td {
+  border: 1px solid black;
+  font-size: 24px;
+}
+
+td {
+  padding: 8px;
+}
+
+#timeline-table th, #timeline-table td {
     text-align: center;
 }
 
-.timeline-table tr:has(input:checked) td {
+
+#timeline-table tr:has(input:checked) td {
     text-decoration: line-through;
 }
 
-.timeline-table {
-  table-layout: fixed;
+#timeline-table {
   width: 100%;
+  margin-right: 100px;
 }
 
-.timeline-table th:nth-child(1),
-.timeline-table td:nth-child(1) {
-  width: 60px;
+#timeline-table th:nth-child(1),
+#timeline-table td:nth-child(1) {
+  width: 10px;
 }
 
-.timeline-table th:nth-child(2),
-.timeline-table td:nth-child(2) {
+#timeline-table th:nth-child(2),
+#timeline-table td:nth-child(2) {
+  width: 200px;
+}
+
+#timeline-table th:nth-child(3),
+#timeline-table td:nth-child(3) {
+  width: 120px;
+}
+
+#timeline-table th:nth-child(4),
+#timeline-table td:nth-child(4) {
+  width: 120px;
+}
+
+#timeline-table th:nth-child(5),
+#timeline-table td:nth-child(5) {
+  width: 110px;
+}
+
+#timeline-table th:nth-child(6),
+#timeline-table td:nth-child(6) {
   width: 150px;
-}
-
-.timeline-table th:nth-child(3),
-.timeline-table td:nth-child(3) {
-  width: 120px;
-}
-
-.timeline-table th:nth-child(4),
-.timeline-table td:nth-child(4) {
-  width: 120px;
-}
-
-.timeline-table th:nth-child(5),
-.timeline-table td:nth-child(5) {
-  width: 100px;
-}
-
-.timeline-table th:nth-child(6),
-.timeline-table td:nth-child(6) {
-  width: 100px;
 }
 
 #timeline-title {
   color: #000000;
+  text-align: center;
+  margin-top: 25px
 }
 
 #timeline-title:hover {
     color: rgb(0, 0, 238)
+}
+
+#timeline-sources {
+  text-align: center;
+}
+
+#timeline-sources ol {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+
+
+#cast-table {
+  width: 85%;
+  margin: 0 auto;
+}
+
+#cast-table th, #cast-table td {
+  text-align: center;
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.nav-links {
+  text-align: right;
+  margin-right: 20px;
+  justify-content: right;
+}
+
+.nav-links-home {
+  text-align: center;
+  margin-left: 20px;
+  justify-content: center;
+}
+
+.timeline_sources {
+  text-decoration: none;
+  color: #000000;
+  font-size: 32px;
+  justify-content: center;
+}
+
+#timeline-sources{
+  font-size: 24px;
+}
+
+#timeline-table input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+#timeline-table-header {
+  position: sticky;
+  top: 0%;
+  left: 50%;
+  padding-left: 2%;
+  padding-right: 2%;
+  background-color: darkgreen;
+  height: 75px
 }
