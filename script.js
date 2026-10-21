@@ -14,3 +14,9 @@ checkboxes.forEach((cb, index) => {
   });
 
 });
+
+/*
+const tbody = document.querySelector('#timeline-table tbody');
+
+mcuData.forEach(item => { const row = <tr> <td><input type="checkbox" ${item.watched ? 'checked' : ''}></td> <td>${item.name}</td> <td>${item.medium}</td> <td>${item.date}</td> <td>${item.release}</td> </tr>; tbody.insertAdjacentHTML('beforeend', row); });
+*/
